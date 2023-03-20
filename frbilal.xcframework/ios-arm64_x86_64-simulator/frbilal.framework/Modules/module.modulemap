@@ -1,0 +1,11 @@
+framework module frbilal {
+  umbrella header "frbilal.h"
+
+  export *
+  module * { export * }
+}
+
+module frbilal.Swift {
+  header "frbilal-Swift.h"
+  requires objc
+}

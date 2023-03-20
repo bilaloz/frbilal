@@ -1,0 +1,87 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "frbilal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "frbilal"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "frbilal"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "frbilal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TradingCore",
+        "printedName": "TradingCore",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "`init`",
+            "printedName": "`init`()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7frbilal11TradingCoreC4inityyF",
+            "mangledName": "$s7frbilal11TradingCoreC4inityyF",
+            "moduleName": "frbilal",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7frbilal11TradingCoreC",
+        "mangledName": "$s7frbilal11TradingCoreC",
+        "moduleName": "frbilal",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/poca\/frbilal\/frbilal\/TradingCore.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 19,
+      "value": "\"my flutter engine\""
+    }
+  ]
+}
